@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Topic:</strong>
+  <%= @issue.topic %>
+</p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @issue.question %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @issue.answer %>
+</p>
+
+<em>Contributors<em>
+<br>
+<ul class="list-group">
+  <% @contributors.each do |c| %>
+  <li class="list-group-item"><%= link_to c.email, user_path %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>
