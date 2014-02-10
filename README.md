@@ -1,11 +1,6 @@
 # Info Share
-<!-- If you'd like to use a logo instead uncomment this code and remove the text above this line
 
-  ![Logo](URL to logo img file goes here)
-
--->
-
-By [Andrew Thul](www.andrewthul.com).
+By [Andrew Thul](github.com/adthul).
 
 ![alt tag](https://raw.github.com/adthul/info_share/master/public/Screenshots/Screenshot.png)
 
@@ -15,7 +10,7 @@ By [Andrew Thul](www.andrewthul.com).
 
 ## Authors
 
-* Andrew Thul (github.com/adthul)
+* Andrew Thul
 
 
 ## Contributors
@@ -26,3 +21,7 @@ By [Andrew Thul](www.andrewthul.com).
 * John
 * Jason
 * Liam
+
+## License
+
+[MIT License](http://adthul.mit-license.org)
